@@ -6,4 +6,5 @@ express()
     .use(express.static('./public'))
     .get('*', function(req, res){
        res.render('index');
-    });
+    })
+    .listen(3000);
