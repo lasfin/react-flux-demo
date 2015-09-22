@@ -9,6 +9,7 @@ gulp.task('browserify', function(){
         .pipe(browserify({
             transform: 'reactify',
             debug: true
+
         }))
         .pipe(concat('main.js'))
         .pipe(gulp.dest('public'));
