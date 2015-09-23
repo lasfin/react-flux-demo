@@ -10,7 +10,7 @@ module.exports = {
     FOLLOWED: 'FOLLOWED',
 
     UNFOLLOW: 'UNFOLLOW',
-    INFOLLOWED: 'UNFOLLOWED'
+    UNFOLLOWED: 'UNFOLLOWED'
 
 
 };
